@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.scss'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom'
 import Main from './Component/Main'
 import Game from './Component/Game'
 import About from './Component/About'
@@ -11,7 +11,7 @@ import Score from './Component/Score'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-	<BrowserRouter>
+	<HashRouter>
 		<Routes>
 			<Route path='/' element={<App />} />
 			<Route path='main' element={<Main />} />
@@ -20,7 +20,7 @@ root.render(
 			<Route path='start' element={<Game />} />
 			<Route path='score' element={<Score />} />
 		</Routes>
-	</BrowserRouter>
+	</HashRouter>
 )
 
 // If you want to start measuring performance in your app, pass a function
