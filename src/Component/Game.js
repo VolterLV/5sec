@@ -475,7 +475,7 @@ const Game = () => {
 									Простой
 								</button>
 								<button className='shrink-border' onClick={openModal2}>
-									Сложный
+									!Сложный!
 								</button>
 								<button className='shrink-border' onClick={openModal3}>
 									Библейский
