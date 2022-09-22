@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/5sec/static/css/main.d9e027a2.css",
+    "main.css": "/5sec/static/css/main.12cdacef.css",
     "main.js": "/5sec/static/js/main.e8781e26.js",
     "static/js/845.068b0f1a.chunk.js": "/5sec/static/js/845.068b0f1a.chunk.js",
     "static/js/787.263f108a.chunk.js": "/5sec/static/js/787.263f108a.chunk.js",
     "static/media/mixkit-bike-bell-ring-595.wav": "/5sec/static/media/mixkit-bike-bell-ring-595.e0c68db80dfae6d948ff.wav",
     "index.html": "/5sec/index.html",
-    "main.d9e027a2.css.map": "/5sec/static/css/main.d9e027a2.css.map",
+    "main.12cdacef.css.map": "/5sec/static/css/main.12cdacef.css.map",
     "main.e8781e26.js.map": "/5sec/static/js/main.e8781e26.js.map",
     "845.068b0f1a.chunk.js.map": "/5sec/static/js/845.068b0f1a.chunk.js.map",
     "787.263f108a.chunk.js.map": "/5sec/static/js/787.263f108a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e027a2.css",
+    "static/css/main.12cdacef.css",
     "static/js/main.e8781e26.js"
   ]
 }
