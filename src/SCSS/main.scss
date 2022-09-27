@@ -60,6 +60,13 @@ $darkblue: rgba(255, 255, 255, 0.498);
 		flex-direction: column;
 		color: #fff;
 		font-family: 'Marck Script';
+
+		@media (max-width: $mobile) {
+			font-size: 3em;
+			div {
+				margin: 10px 0px 10px 0px;
+			}
+		}
 	}
 }
 .score {
@@ -123,7 +130,7 @@ $darkblue: rgba(255, 255, 255, 0.498);
 
 /* ------------common------------------ */
 .striped-text {
-	padding: 35px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
 	font-family: 'Press Start 2P';
 	font-weight: 400;
 	font-size: 4em;
@@ -142,7 +149,7 @@ $darkblue: rgba(255, 255, 255, 0.498);
 	display: table;
 	margin: 0px 0px 20px 0px;
 	@media (max-width: $mobile) {
-		padding: 60px 0px 0px 0px;
+		padding: 50px 0px 0px 0px;
 		font-size: 3em;
 	}
 }

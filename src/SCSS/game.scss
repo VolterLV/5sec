@@ -90,6 +90,10 @@
 		font-size: 3.8em;
 		color: #ffff;
 		text-align: center;
+		@media (max-width: $mobile) {
+			margin: 0px 0px 0px 0px;
+			font-size: 3em;
+		}
 	}
 
 	/* .game__timer */

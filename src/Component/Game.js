@@ -78,6 +78,7 @@ const Game = () => {
 	const questionSimple = useBearStore(state => state.questionsSimple)
 	const questionHard = useBearStore(state => state.questionsHard)
 	const questionBible = useBearStore(state => state.questionsBible)
+	const questionTest = useBearStore(state => state.questionsTest)
 	/* ------------State */
 	/* Modal-------------------------------*/
 	let subtitle
@@ -98,10 +99,8 @@ const Game = () => {
 	useEffect(() => {
 		if (modalIsOpen === true && questions.length > 0) {
 			questionRandom()
-			getNumber()
-			const index = element.index
-			console.log('inex', index)
-			setQuestions(questions.filter(item => item.index !== index))
+			let shifted = questions.shift()
+			console.log('shifted', shifted)
 		}
 	}, [modalIsOpen])
 
@@ -113,24 +112,7 @@ const Game = () => {
 		}
 		console.log('questions', questions)
 	}
-	function getNumber() {
-		var i = 0,
-			arr = [],
-			count = 1,
-			diff,
-			curr,
-			limits = [0, 10]
 
-		diff = limits[1] - limits[0]
-		while (i++ < count && diff >= count - 1) {
-			// В случае, если количество чисел на выходе превышает максимальное количество уникальных
-			do {
-				curr = Math.floor(Math.random() * (diff + 1) + limits[0])
-			} while (arr.indexOf(curr) != -1)
-			arr.push(curr)
-		}
-		console.log(arr)
-	}
 	/* Question1Simple------------------------------------------ */
 
 	/* Question2Hard------------------------------------------ */
@@ -141,10 +123,8 @@ const Game = () => {
 	useEffect(() => {
 		if (modalIsOpen2 === true && questions2.length > 0) {
 			questionRandom2()
-			getNumber()
-			const index2 = element2.index
-			console.log('inex2', index2)
-			setQuestions2(questions2.filter(item => item.index !== index2))
+			let shifted2 = questions3.shift()
+			console.log('shifted2', shifted2)
 		}
 	}, [modalIsOpen2])
 
@@ -160,9 +140,25 @@ const Game = () => {
 
 	/* Question3Bible------------------------------------------ */
 	const [questions3, setQuestions3] = useState(questionBible)
+	/* 	const [questions3, setQuestions3] = useState(questionTest) */
 	const [element3, setElement3] = useState('')
-
 	useEffect(() => {
+		if (modalIsOpen3 === true && questions3.length > 0) {
+			questionRandom3()
+			let shifted3 = questions3.shift()
+			console.log('shifted3', shifted3)
+		}
+	}, [modalIsOpen3])
+	function questionRandom3() {
+		if (questions3.length > 0) {
+			setElement3(
+				questions3.sort(() => Math.random() - Math.random()).find(() => true)
+			)
+		}
+		console.log('questions3', questions3)
+	}
+
+	/* 	useEffect(() => {
 		if (modalIsOpen3 === true && questions3.length > 0) {
 			questionRandom3()
 			getNumber()
@@ -179,7 +175,7 @@ const Game = () => {
 			)
 		}
 		console.log('questions3', questions3)
-	}
+	} */
 	/* Question3Bible------------------------------------------ */
 	function openModal() {
 		setIsOpen(true)
@@ -375,6 +371,9 @@ const Game = () => {
 
 		closeModal5()
 	}
+	function rightAnswer() {
+			
+		}	function wrongAnswer() {}
 
 	/* 	---------------------Очередь-------------------------------- */
 	return (
@@ -484,7 +483,6 @@ const Game = () => {
 									От соперника
 								</button>
 							</div>
-
 							<div className='game__question'>
 								<span>
 									"Назови{' '}
@@ -501,11 +499,17 @@ const Game = () => {
 							<button className='shrink-border' onClick={openModal5}>
 								Next Round
 							</button>
-							<Footer />
+							<button className='shrink-border' onClick={rightAnswer}>
+								Правильный ответ
+							</button>{' '}
+							<button className='shrink-border' onClick={wrongAnswer}>
+								Неправильный ответ
+							</button>
 						</div>
 					</div>
-				</div>
-			</section>
+				</div>{' '}
+			</section>{' '}
+			<Footer />
 		</div>
 	)
 }

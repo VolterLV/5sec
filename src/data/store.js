@@ -1161,6 +1161,49 @@ const bearStore = set => ({
 			index: 109,
 		},
 	],
+
+	questionsTest: [
+		{
+			question: '1',
+			index: 1,
+		},
+		{
+			question: '2',
+			index: 2,
+		},
+		{
+			question: '3',
+			index: 3,
+		},
+		{
+			question: '4',
+			index: 4,
+		},
+		{
+			question: '5',
+			index: 5,
+		},
+		{
+			question: '6',
+			index: 6,
+		},
+		{
+			question: '7',
+			index: 7,
+		},
+		{
+			question: '8',
+			index: 8,
+		},
+		{
+			question: '9',
+			index: 9,
+		},
+		{
+			question: '10',
+			index: 10,
+		},
+	],
 })
 
 const useBearStore = create(devtools(persist(bearStore, { name: 'question' })))
