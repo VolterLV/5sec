@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/5sec/static/css/main.192aa0aa.css",
-    "main.js": "/5sec/static/js/main.6e82a140.js",
+    "main.css": "/5sec/static/css/main.4bc4c22b.css",
+    "main.js": "/5sec/static/js/main.36ac9f30.js",
     "static/js/845.068b0f1a.chunk.js": "/5sec/static/js/845.068b0f1a.chunk.js",
     "static/js/787.263f108a.chunk.js": "/5sec/static/js/787.263f108a.chunk.js",
     "static/media/mixkit-bike-bell-ring-595.wav": "/5sec/static/media/mixkit-bike-bell-ring-595.e0c68db80dfae6d948ff.wav",
     "static/media/timer-bell_m1tycbno.mp3": "/5sec/static/media/timer-bell_m1tycbno.875f5fcf480f47d15b05.mp3",
     "static/media/5.png": "/5sec/static/media/5.2a352a887235328ca768.png",
     "index.html": "/5sec/index.html",
-    "main.192aa0aa.css.map": "/5sec/static/css/main.192aa0aa.css.map",
-    "main.6e82a140.js.map": "/5sec/static/js/main.6e82a140.js.map",
+    "main.4bc4c22b.css.map": "/5sec/static/css/main.4bc4c22b.css.map",
+    "main.36ac9f30.js.map": "/5sec/static/js/main.36ac9f30.js.map",
     "845.068b0f1a.chunk.js.map": "/5sec/static/js/845.068b0f1a.chunk.js.map",
     "787.263f108a.chunk.js.map": "/5sec/static/js/787.263f108a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.192aa0aa.css",
-    "static/js/main.6e82a140.js"
+    "static/css/main.4bc4c22b.css",
+    "static/js/main.36ac9f30.js"
   ]
 }
