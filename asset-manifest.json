@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/5sec/static/css/main.69bd4b4a.css",
-    "main.js": "/5sec/static/js/main.3345b545.js",
+    "main.css": "/5sec/static/css/main.e4213878.css",
+    "main.js": "/5sec/static/js/main.6ec8f84f.js",
     "static/js/845.068b0f1a.chunk.js": "/5sec/static/js/845.068b0f1a.chunk.js",
     "static/js/787.263f108a.chunk.js": "/5sec/static/js/787.263f108a.chunk.js",
     "static/media/mixkit-bike-bell-ring-595.wav": "/5sec/static/media/mixkit-bike-bell-ring-595.e0c68db80dfae6d948ff.wav",
+    "static/media/timer.png": "/5sec/static/media/timer.cf0ae3e8ed6d1d648eb8.png",
     "static/media/right.png": "/5sec/static/media/right.74a8ae84812746ad67ae.png",
     "static/media/timer-bell_m1tycbno.mp3": "/5sec/static/media/timer-bell_m1tycbno.875f5fcf480f47d15b05.mp3",
     "static/media/qw2.png": "/5sec/static/media/qw2.b369cced230f8fd766cd.png",
@@ -13,13 +14,13 @@
     "static/media/qw3.png": "/5sec/static/media/qw3.d35c423dfac32d93cba5.png",
     "static/media/5.png": "/5sec/static/media/5.2a352a887235328ca768.png",
     "index.html": "/5sec/index.html",
-    "main.69bd4b4a.css.map": "/5sec/static/css/main.69bd4b4a.css.map",
-    "main.3345b545.js.map": "/5sec/static/js/main.3345b545.js.map",
+    "main.e4213878.css.map": "/5sec/static/css/main.e4213878.css.map",
+    "main.6ec8f84f.js.map": "/5sec/static/js/main.6ec8f84f.js.map",
     "845.068b0f1a.chunk.js.map": "/5sec/static/js/845.068b0f1a.chunk.js.map",
     "787.263f108a.chunk.js.map": "/5sec/static/js/787.263f108a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69bd4b4a.css",
-    "static/js/main.3345b545.js"
+    "static/css/main.e4213878.css",
+    "static/js/main.6ec8f84f.js"
   ]
 }
